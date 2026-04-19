@@ -560,6 +560,17 @@
         "C": { "text": "无论发生什么，ta都在的安心感", "dimension": "C" },
         "D": { "text": "我们一起实现的那些目标", "dimension": "D" }
       }
+    },
+    {
+      "id": 52,
+      "content": "如果用一种颜色形容爱，你会选？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "日落时天空的渐变色——温暖但会消失", "dimension": "A" },
+        "B": { "text": "极光——难得一见，出现时惊艳全场", "dimension": "B" },
+        "C": { "text": "大海的颜色——包容万象，深沉而永恒", "dimension": "C" },
+        "D": { "text": "心跳监测仪上的绿光——跳动着才叫活着", "dimension": "D" }
+      }
     }
   ]
 }

@@ -20,7 +20,7 @@ export default function ProgressBar() {
           {Math.round(progress * 100)}% 完成
         </span>
         <span className="text-xs text-gray-400">
-          51 道题
+          52 道题
         </span>
       </div>
     </div>

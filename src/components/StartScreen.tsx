@@ -30,7 +30,7 @@ export default function StartScreen() {
 
       <div className="text-left text-sm text-gray-500 mb-8 space-y-2">
         <p>面向中国 Z 世代的恋爱倾向测试</p>
-        <p>51 道中性化题目 · 24 种全序列人格</p>
+        <p>52 道中性化题目 · 24 种全序列人格</p>
         <p>发现你的 A/B/C/D 浪漫密码</p>
       </div>
 
