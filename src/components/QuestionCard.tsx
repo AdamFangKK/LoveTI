@@ -44,26 +44,34 @@ export default function QuestionCard() {
           </span>
         </div>
 
-        <motion.h2
+        <motion.div
           key={question.id}
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          className="text-xl font-medium text-gray-800 mb-6"
+          initial={{ opacity: 0, y: 30, scale: 0.95 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ type: 'spring', stiffness: 300, damping: 20 }}
         >
-          {question.content}
-        </motion.h2>
+          <h2 className="text-xl font-medium text-gray-800 mb-6">
+            {question.content}
+          </h2>
 
-        <div className="space-y-3">
-          {(['A', 'B', 'C', 'D'] as const).map((key) => (
-            <OptionButton
-              key={key}
-              optionKey={key}
-              text={question.options[key].text}
-              isSelected={selectedAnswer === key}
-              onClick={() => selectAnswer(key)}
-            />
-          ))}
-        </div>
+          <div className="space-y-3">
+            {(['A', 'B', 'C', 'D'] as const).map((key, i) => (
+              <motion.div
+                key={key}
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: i * 0.05, type: 'spring', stiffness: 300, damping: 20 }}
+              >
+                <OptionButton
+                  optionKey={key}
+                  text={question.options[key].text}
+                  isSelected={selectedAnswer === key}
+                  onClick={() => selectAnswer(key)}
+                />
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
       </div>
 
       <div className="flex gap-3">
