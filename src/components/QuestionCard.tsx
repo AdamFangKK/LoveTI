@@ -2,6 +2,16 @@ import { motion } from 'framer-motion';
 import { useQuizStore } from '../stores/quizStore';
 import OptionButton from './OptionButton';
 import questionsData from '../data/questions.json';
+import type { Dimension } from '../engine/types';
+
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
 
 export default function QuestionCard() {
   const {
@@ -16,6 +26,7 @@ export default function QuestionCard() {
 
   const question = questionsData.questions[currentQuestionIndex];
   const selectedAnswer = getAnswerForCurrentQuestion();
+  const shuffledKeys = shuffleArray(['A', 'B', 'C', 'D'] as Dimension[]);
   const isLastQuestion = currentQuestionIndex === questionsData.questions.length - 1;
   const isComplete = getProgress() === 1;
 
@@ -55,9 +66,9 @@ export default function QuestionCard() {
           </h2>
 
           <div className="space-y-3">
-            {(['A', 'B', 'C', 'D'] as const).map((key, i) => (
+            {shuffledKeys.map((key, i) => (
               <motion.div
-                key={key}
+                key={`${question.id}-${key}`}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: i * 0.05, type: 'spring', stiffness: 300, damping: 20 }}
