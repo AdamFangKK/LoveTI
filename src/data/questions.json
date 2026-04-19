@@ -1,0 +1,565 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "content": "深夜独自走在街上，看见远处两个人并肩走着，有说有笑。你会先注意到？",
+      "lifePhase": "stable",
+      "options": {
+        "A": { "text": "路灯把他们的影子拉得很长，有种说不出的温柔", "dimension": "A" },
+        "B": { "text": "他们在聊什么能笑得这么开心？", "dimension": "B" },
+        "C": { "text": "那种不需要多说的默契感", "dimension": "C" },
+        "D": { "text": "希望自己也能有个人陪着走这条路", "dimension": "D" }
+      }
+    },
+    {
+      "id": 2,
+      "content": "咖啡馆里，你注意到角落里有人独自看书，窗外的光刚好落在那一页。你的感觉是？",
+      "lifePhase": "firstMeet",
+      "options": {
+        "A": { "text": "这个画面很美，像一幅还没完成的画", "dimension": "A" },
+        "B": { "text": "好奇那是一本什么书，能让人这么专注", "dimension": "B" },
+        "C": { "text": "那种与自己独处的姿态，让人想靠近", "dimension": "C" },
+        "D": { "text": "想走过去问对方要不要一起喝杯咖啡", "dimension": "D" }
+      }
+    },
+    {
+      "id": 3,
+      "content": "刚认识不久的人，你发现对方记得你随口说过的一句话。这让你觉得？",
+      "lifePhase": "firstMeet",
+      "options": {
+        "A": { "text": "被珍视的感觉，像被小心翼翼地对待", "dimension": "A" },
+        "B": { "text": "有点意外，想知道对方为什么会记得", "dimension": "B" },
+        "C": { "text": "心里微微一热，像是找到了同类", "dimension": "C" },
+        "D": { "text": "这说明对方是认真的人，可以继续了解", "dimension": "D" }
+      }
+    },
+    {
+      "id": 4,
+      "content": "两个人的第一次散步，走着走着突然沉默了。你觉得这种沉默？",
+      "lifePhase": "firstMeet",
+      "options": {
+        "A": { "text": "也很好，像是在共享同一片天空", "dimension": "A" },
+        "B": { "text": "有点尴尬，得找点话题打破它", "dimension": "B" },
+        "C": { "text": "舒服的沉默，比硬聊100句话都自然", "dimension": "C" },
+        "D": { "text": "不确定对方怎么想，需要有人说点什么", "dimension": "D" }
+      }
+    },
+    {
+      "id": 5,
+      "content": "看到有人在下雨天共撑一把伞，你会想象他们的故事是？",
+      "lifePhase": "firstMeet",
+      "options": {
+        "A": { "text": "伞下的世界很小，但刚好装下两个人", "dimension": "A" },
+        "B": { "text": "他们一定有什么有趣的故事正在发生", "dimension": "B" },
+        "C": { "text": "不需要故事，这就是最好的样子", "dimension": "C" },
+        "D": { "text": "希望自己也能有这样的时刻", "dimension": "D" }
+      }
+    },
+    {
+      "id": 6,
+      "content": "当那个人第一次主动联系你时，你正在做什么会让你印象最深？",
+      "lifePhase": "firstMeet",
+      "options": {
+        "A": { "text": "刚好在看月亮，想立刻分享给对方", "dimension": "A" },
+        "B": { "text": "刚经历了一件很好笑的事，第一时间想告诉对方", "dimension": "B" },
+        "C": { "text": "其实不记得在做什么，只记得收到消息时的感觉", "dimension": "C" },
+        "D": { "text": "正在认真做一件事，被打断的感觉很微妙", "dimension": "D" }
+      }
+    },
+    {
+      "id": 7,
+      "content": "两个人的眼神在人群中相遇的那一刻，你觉得那一刻像什么？",
+      "lifePhase": "firstMeet",
+      "options": {
+        "A": { "text": "像整部电影突然按下了暂停键", "dimension": "A" },
+        "B": { "text": "像过山车到达顶点，接下来是俯冲", "dimension": "B" },
+        "C": { "text": "像早就认识的人终于见到了面", "dimension": "C" },
+        "D": { "text": "像做了一个决定，虽然还没想好要怎么走", "dimension": "D" }
+      }
+    },
+    {
+      "id": 8,
+      "content": "刚在一起没多久，对方做了一件让你特别感动的事。那件事是？",
+      "lifePhase": "passion",
+      "options": {
+        "A": { "text": "记得你说过想要的东西，然后悄悄准备给你", "dimension": "A" },
+        "B": { "text": "带你去一个你从来不知道存在的地方", "dimension": "B" },
+        "C": { "text": "在你需要的时候，什么都没说就出现了", "dimension": "C" },
+        "D": { "text": "认真规划了一次属于你们的旅行", "dimension": "D" }
+      }
+    },
+    {
+      "id": 9,
+      "content": "热恋期，你觉得最美好的时刻是？",
+      "lifePhase": "passion",
+      "options": {
+        "A": { "text": "两个人什么都不做，待在一起发呆", "dimension": "A" },
+        "B": { "text": "一起尝试从没做过的事，笑着尖叫", "dimension": "B" },
+        "C": { "text": "各自在做自己的事，偶尔抬头对视一笑", "dimension": "C" },
+        "D": { "text": "讨论未来要一起去的地方、要一起做的事", "dimension": "D" }
+      }
+    },
+    {
+      "id": 10,
+      "content": "当有人说\"我想你了\"，你第一反应是？",
+      "lifePhase": "passion",
+      "options": {
+        "A": { "text": "心里像被什么柔软的东西碰了一下", "dimension": "A" },
+        "B": { "text": "想立刻见到对方", "dimension": "B" },
+        "C": { "text": "其实不用说出口，我也一直想着你", "dimension": "C" },
+        "D": { "text": "那我们现在就见面吧", "dimension": "D" }
+      }
+    },
+    {
+      "id": 11,
+      "content": "第一次吵架后和好，你们选择了怎么做？",
+      "lifePhase": "conflict",
+      "options": {
+        "A": { "text": "安静地待一会儿，让情绪慢慢平复", "dimension": "A" },
+        "B": { "text": "用一个小惊喜把尴尬融化掉", "dimension": "B" },
+        "C": { "text": "认真聊了聊，说出了各自的想法", "dimension": "C" },
+        "D": { "text": "约好以后遇到这种事要怎么快速解决", "dimension": "D" }
+      }
+    },
+    {
+      "id": 12,
+      "content": "当两个人对同一件事有完全不同的看法时，你希望？",
+      "lifePhase": "conflict",
+      "options": {
+        "A": { "text": "先安静听对方说完，不要急着反驳", "dimension": "A" },
+        "B": { "text": "争论一下也好，真理越辩越明", "dimension": "B" },
+        "C": { "text": "不需要争出对错，理解对方的角度就好", "dimension": "C" },
+        "D": { "text": "定个规则，以后这种事谁做主", "dimension": "D" }
+      }
+    },
+    {
+      "id": 13,
+      "content": "对方心情不好，但不说原因。你的第一反应是？",
+      "lifePhase": "conflict",
+      "options": {
+        "A": { "text": "默默陪在旁边，不追问", "dimension": "A" },
+        "B": { "text": "想办法让对方开心起来", "dimension": "B" },
+        "C": { "text": "相信对方会在准备好的时候说出来", "dimension": "C" },
+        "D": { "text": "问清楚原因，这样才能帮上忙", "dimension": "D" }
+      }
+    },
+    {
+      "id": 14,
+      "content": "你最难接受对方做的事情是？",
+      "lifePhase": "conflict",
+      "options": {
+        "A": { "text": "冷淡敷衍，感觉被忽视", "dimension": "A" },
+        "B": { "text": "说话不算数，承诺的事总是做不到", "dimension": "B" },
+        "C": { "text": "在最需要的时候缺席", "dimension": "C" },
+        "D": { "text": "遇到问题就逃避，不愿意面对", "dimension": "D" }
+      }
+    },
+    {
+      "id": 15,
+      "content": "吵完架之后，你更希望怎么收尾？",
+      "lifePhase": "conflict",
+      "options": {
+        "A": { "text": "一个拥抱，比说多少话都有用", "dimension": "A" },
+        "B": { "text": "一起去做点有趣的事，把不愉快翻篇", "dimension": "B" },
+        "C": { "text": "和好之后像什么都没发生过", "dimension": "C" },
+        "D": { "text": "明确说好以后怎么避免再发生", "dimension": "D" }
+      }
+    },
+    {
+      "id": 16,
+      "content": "异地恋时，最让你安心的一句话是？",
+      "lifePhase": "distance",
+      "options": {
+        "A": { "text": "\"我也在想你，和你此刻想我一样\"", "dimension": "A" },
+        "B": { "text": "\"下周我就能见到你了！\"", "dimension": "B" },
+        "C": { "text": "\"不管多远，我们的节奏是一样的\"", "dimension": "C" },
+        "D": { "text": "\"我已经在计划怎么结束异地了\"", "dimension": "D" }
+      }
+    },
+    {
+      "id": 17,
+      "content": "每次分开前，你们通常会？",
+      "lifePhase": "distance",
+      "options": {
+        "A": { "text": "拍一张合照，约定下次见面再拍一张", "dimension": "A" },
+        "B": { "text": "规划下次见面要一起去探索的地方", "dimension": "B" },
+        "C": { "text": "约定一个只有我们懂的小暗号", "dimension": "C" },
+        "D": { "text": "定好下次见面的具体日期", "dimension": "D" }
+      }
+    },
+    {
+      "id": 18,
+      "content": "收到对方寄来的东西，不是什么特别节日。你会觉得？",
+      "lifePhase": "distance",
+      "options": {
+        "A": { "text": "惊喜不是节日才有，平时也要给你制造", "dimension": "A" },
+        "B": { "text": "这说明对方在想着我，哪怕不在身边", "dimension": "B" },
+        "C": { "text": "不用为什么，就是想让我知道他在", "dimension": "C" },
+        "D": { "text": "下次我也要给他寄点什么作为回应", "dimension": "D" }
+      }
+    },
+    {
+      "id": 19,
+      "content": "异地的晚上，你们视频通话时，你最享受的是？",
+      "lifePhase": "distance",
+      "options": {
+        "A": { "text": "即使不说话，看着屏幕里的对方也很安心", "dimension": "A" },
+        "B": { "text": "分享今天发生的各种小事", "dimension": "B" },
+        "C": { "text": "各自做自己的事，抬头就能看到对方", "dimension": "C" },
+        "D": { "text": "一起看同一部电影并讨论剧情", "dimension": "D" }
+      }
+    },
+    {
+      "id": 20,
+      "content": "异地让你成长了什么？",
+      "lifePhase": "distance",
+      "options": {
+        "A": { "text": "学会了用文字和声音传递温度", "dimension": "A" },
+        "B": { "text": "学会了独自生活也不觉得孤单", "dimension": "B" },
+        "C": { "text": "更珍惜在一起的时间", "dimension": "C" },
+        "D": { "text": "学会了制定计划并严格执行", "dimension": "D" }
+      }
+    },
+    {
+      "id": 21,
+      "content": "当感情从热烈变得平静，你觉得这是？",
+      "lifePhase": "stable",
+      "options": {
+        "A": { "text": "从烟花变成了炉火，更温暖但不易察觉", "dimension": "A" },
+        "B": { "text": "需要注入新的刺激，让关系保持活力", "dimension": "B" },
+        "C": { "text": "默契的开始，不需要轰轰烈烈也能走下去", "dimension": "C" },
+        "D": { "text": "有点担心，不知道这算不算正常", "dimension": "D" }
+      }
+    },
+    {
+      "id": 22,
+      "content": "日常生活里，你最享受的相处方式是？",
+      "lifePhase": "stable",
+      "options": {
+        "A": { "text": "一起做饭，即使不说话也很好", "dimension": "A" },
+        "B": { "text": "周末去一个没去过的地方", "dimension": "B" },
+        "C": { "text": "各自看书，偶尔交流几句", "dimension": "C" },
+        "D": { "text": "一起制定计划然后执行", "dimension": "D" }
+      }
+    },
+    {
+      "id": 23,
+      "content": "对方专注做事的时候，你通常会？",
+      "lifePhase": "stable",
+      "options": {
+        "A": { "text": "静静看着，心里觉得很满足", "dimension": "A" },
+        "B": { "text": "好奇是什么这么吸引人", "dimension": "B" },
+        "C": { "text": "也做自己的事，互不打扰", "dimension": "C" },
+        "D": { "text": "想着怎么能在对方忙的时候帮上忙", "dimension": "D" }
+      }
+    },
+    {
+      "id": 24,
+      "content": "当两个人因为太熟悉而变得随意，你怎么看？",
+      "lifePhase": "stable",
+      "options": {
+        "A": { "text": "很好，不需要再伪装，可以做自己", "dimension": "A" },
+        "B": { "text": "偶尔还是需要一些小惊喜来调味", "dimension": "B" },
+        "C": { "text": "这就是我要的，不需要表演的爱情", "dimension": "C" },
+        "D": { "text": "担心这样下去会失去感觉", "dimension": "D" }
+      }
+    },
+    {
+      "id": 25,
+      "content": "节假日你们通常怎么过？",
+      "lifePhase": "stable",
+      "options": {
+        "A": { "text": "在家安静地待着，享受两个人的时光", "dimension": "A" },
+        "B": { "text": "出去旅行，创造新的回忆", "dimension": "B" },
+        "C": { "text": "和平时一样，该干嘛干嘛", "dimension": "C" },
+        "D": { "text": "精心准备一顿饭或者一个活动", "dimension": "D" }
+      }
+    },
+    {
+      "id": 26,
+      "content": "当讨论到未来要住在哪里时，你们会？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "想象那个家的样子，越具体越好", "dimension": "A" },
+        "B": { "text": "列出各种可能性，选最有趣的", "dimension": "B" },
+        "C": { "text": "商量一个对双方都公平的方案", "dimension": "C" },
+        "D": { "text": "定好时间表，什么时候做什么", "dimension": "D" }
+      }
+    },
+    {
+      "id": 27,
+      "content": "当对方提出想要更进一步的时候（比如同居、结婚），你的第一反应是？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "心里有个画面开始变得清晰", "dimension": "A" },
+        "B": { "text": "兴奋又紧张，不知道会发生什么", "dimension": "B" },
+        "C": { "text": "其实早就在心里等这一刻了", "dimension": "C" },
+        "D": { "text": "需要认真想一想现实的问题", "dimension": "D" }
+      }
+    },
+    {
+      "id": 28,
+      "content": "你们吵架后不会冷战的原因是什么？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "舍不得让不愉快持续太久", "dimension": "A" },
+        "B": { "text": "觉得冷战太无聊，不如吵一架", "dimension": "B" },
+        "C": { "text": "相信问题可以解决，不需要用沉默惩罚", "dimension": "C" },
+        "D": { "text": "吵完总会有一方先道歉", "dimension": "D" }
+      }
+    },
+    {
+      "id": 29,
+      "content": "你理想中\"老了以后\"的感情是什么样的？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "依然能并肩坐着，看日出日落", "dimension": "A" },
+        "B": { "text": "还能一起尝试新鲜事", "dimension": "B" },
+        "C": { "text": "不需要说话也懂对方在想什么", "dimension": "C" },
+        "D": { "text": "一起把年轻时画的蓝图实现", "dimension": "D" }
+      }
+    },
+    {
+      "id": 30,
+      "content": "如果感情最终没有走到最后，你觉得会是因为？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "两个人渐行渐远，精神上不再同频", "dimension": "A" },
+        "B": { "text": "生活中只剩下平淡，没有了当初的火花", "dimension": "B" },
+        "C": { "text": "信任被消耗殆尽", "dimension": "C" },
+        "D": { "text": "对未来的规划始终无法达成一致", "dimension": "D" }
+      }
+    },
+    {
+      "id": 31,
+      "content": "分手后，你通常需要多久才能真正放下？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "很久，需要慢慢消化那些回忆", "dimension": "A" },
+        "B": { "text": "不太确定，时间到了自然就放下了", "dimension": "B" },
+        "C": { "text": "其实不需要太久，因为知道会有人懂我", "dimension": "C" },
+        "D": { "text": "尽快，因为还有更重要的事要做", "dimension": "D" }
+      }
+    },
+    {
+      "id": 32,
+      "content": "如果前任突然联系你，你会？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "看情况，先想想对方为什么联系", "dimension": "A" },
+        "B": { "text": "好奇对方现在过得怎么样", "dimension": "B" },
+        "C": { "text": "既然过去了，就不需要再联系", "dimension": "C" },
+        "D": { "text": "直接问有什么事", "dimension": "D" }
+      }
+    },
+    {
+      "id": 33,
+      "content": "你相信\"命中注定\"吗？",
+      "lifePhase": "firstMeet",
+      "options": {
+        "A": { "text": "相信，有些相遇就是刚刚好", "dimension": "A" },
+        "B": { "text": "不太信，我觉得命运是自己创造的", "dimension": "B" },
+        "C": { "text": "相信吸引力法则，相似的人会相遇", "dimension": "C" },
+        "D": { "text": "不相信，感情需要双方努力经营", "dimension": "D" }
+      }
+    },
+    {
+      "id": 34,
+      "content": "你更相信日久生情还是一见钟情？",
+      "lifePhase": "firstMeet",
+      "options": {
+        "A": { "text": "日久生情，经历时间考验的才是真的", "dimension": "A" },
+        "B": { "text": "一见钟情，那种心跳的感觉骗不了人", "dimension": "B" },
+        "C": { "text": "都有道理，关键是两个人愿意走下去", "dimension": "C" },
+        "D": { "text": "日久生情更靠谱，有感情基础", "dimension": "D" }
+      }
+    },
+    {
+      "id": 35,
+      "content": "当你在关系中感到迷茫时，你通常会？",
+      "lifePhase": "conflict",
+      "options": {
+        "A": { "text": "一个人静静，想清楚再说", "dimension": "A" },
+        "B": { "text": "和对方谈谈，或许能理清一些事", "dimension": "B" },
+        "C": { "text": "相信感觉，感觉对了就有答案", "dimension": "C" },
+        "D": { "text": "分析问题，找出具体是哪里不对", "dimension": "D" }
+      }
+    },
+    {
+      "id": 36,
+      "content": "你觉得沟通中最重要的部分是？",
+      "lifePhase": "conflict",
+      "options": {
+        "A": { "text": "倾听，理解对方真正想表达什么", "dimension": "A" },
+        "B": { "text": "诚实，想到什么就说什么", "dimension": "B" },
+        "C": { "text": "尊重，即使不同意也认真对待", "dimension": "C" },
+        "D": { "text": "效率，能说清楚就不要绕弯子", "dimension": "D" }
+      }
+    },
+    {
+      "id": 37,
+      "content": "你更看重对方的什么特质？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "温柔，能让周围的人感到舒适", "dimension": "A" },
+        "B": { "text": "有趣，和ta在一起永远不会无聊", "dimension": "B" },
+        "C": { "text": "真诚，和我一样愿意坦诚相待", "dimension": "C" },
+        "D": { "text": "上进，有目标并愿意为之努力", "dimension": "D" }
+      }
+    },
+    {
+      "id": 38,
+      "content": "你认为\"成熟的爱情\"是什么样的？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "既独立又依赖，各自精彩又彼此支撑", "dimension": "A" },
+        "B": { "text": "不断发现新的彼此，保持新鲜感", "dimension": "B" },
+        "C": { "text": "即使看到对方的缺点也依然选择在一起", "dimension": "C" },
+        "D": { "text": "共同成长，互相成就彼此的目标", "dimension": "D" }
+      }
+    },
+    {
+      "id": 39,
+      "content": "当对方为你改变了一件事，你会怎么想？",
+      "lifePhase": "stable",
+      "options": {
+        "A": { "text": "很感动，会记住这份心意", "dimension": "A" },
+        "B": { "text": "希望不是因为ta勉强自己", "dimension": "B" },
+        "C": { "text": "这说明ta在乎我", "dimension": "C" },
+        "D": { "text": "我也会为ta做些改变", "dimension": "D" }
+      }
+    },
+    {
+      "id": 40,
+      "content": "你理想中的约会是什么样的？",
+      "lifePhase": "firstMeet",
+      "options": {
+        "A": { "text": "一个安静的地方，能让我们好好聊天", "dimension": "A" },
+        "B": { "text": "一个能让我们共同体验新事物的场合", "dimension": "B" },
+        "C": { "text": "其实去哪里不重要，重要的是和谁", "dimension": "C" },
+        "D": { "text": "能让我们更了解彼此的、有内容的约会", "dimension": "D" }
+      }
+    },
+    {
+      "id": 41,
+      "content": "当你们因为小事争吵时，你通常会？",
+      "lifePhase": "conflict",
+      "options": {
+        "A": { "text": "先停下来，等情绪平复再谈", "dimension": "A" },
+        "B": { "text": "吵完就算了，不纠结", "dimension": "B" },
+        "C": { "text": "在乎对方的感受，主动和解", "dimension": "C" },
+        "D": { "text": "一定要说清楚，不能留隔阂", "dimension": "D" }
+      }
+    },
+    {
+      "id": 42,
+      "content": "你更喜欢伴侣用什么方式表达爱意？",
+      "lifePhase": "passion",
+      "options": {
+        "A": { "text": "一些小动作，比如拉着我的手", "dimension": "A" },
+        "B": { "text": "带我去尝试我没做过的事", "dimension": "B" },
+        "C": { "text": "记得我说过的话并付诸行动", "dimension": "C" },
+        "D": { "text": "直接告诉我，有什么事都说出来", "dimension": "D" }
+      }
+    },
+    {
+      "id": 43,
+      "content": "当关系遇到瓶颈时，你更希望？",
+      "lifePhase": "conflict",
+      "options": {
+        "A": { "text": "给彼此一些空间，让感觉慢慢回来", "dimension": "A" },
+        "B": { "text": "做出一些改变，打破现状", "dimension": "B" },
+        "C": { "text": "相信这只是暂时的，坚持下去就会好", "dimension": "C" },
+        "D": { "text": "坐下来好好分析问题出在哪里", "dimension": "D" }
+      }
+    },
+    {
+      "id": 44,
+      "content": "你觉得两个人在一起最重要的是？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "相处的舒适度，在一起的时候是否放松", "dimension": "A" },
+        "B": { "text": "有共同的兴趣和话题", "dimension": "B" },
+        "C": { "text": "彼此信任，不会互相怀疑", "dimension": "C" },
+        "D": { "text": "对未来的规划是否一致", "dimension": "D" }
+      }
+    },
+    {
+      "id": 45,
+      "content": "你更倾向于如何表达爱意？",
+      "lifePhase": "passion",
+      "options": {
+        "A": { "text": "用行动，让对方感受到细微的关心", "dimension": "A" },
+        "B": { "text": "用语言，直接告诉对方我的感受", "dimension": "B" },
+        "C": { "text": "用时间，陪伴是最长情的告白", "dimension": "C" },
+        "D": { "text": "用规划，为我们的未来努力", "dimension": "D" }
+      }
+    },
+    {
+      "id": 46,
+      "content": "你怎样看待\"磨合\"这件事？",
+      "lifePhase": "stable",
+      "options": {
+        "A": { "text": "磨合是让彼此更契合的过程", "dimension": "A" },
+        "B": { "text": "磨合可以，但要保持各自的个性", "dimension": "B" },
+        "C": { "text": "真正的磨合是接受对方本来的样子", "dimension": "C" },
+        "D": { "text": "磨合需要有明确的底线和原则", "dimension": "D" }
+      }
+    },
+    {
+      "id": 47,
+      "content": "当对方取得成就时，你会？",
+      "lifePhase": "stable",
+      "options": {
+        "A": { "text": "为ta骄傲，也觉得自己的眼光很好", "dimension": "A" },
+        "B": { "text": "想一起庆祝这个时刻", "dimension": "B" },
+        "C": { "text": "觉得这是理所当然的，ta本来就优秀", "dimension": "C" },
+        "D": { "text": "想一起规划下一步怎么做", "dimension": "D" }
+      }
+    },
+    {
+      "id": 48,
+      "content": "你更期待什么样的婚后生活？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "平静温馨的日常，有ta在就够了", "dimension": "A" },
+        "B": { "text": "充满惊喜和新鲜感的生活", "dimension": "B" },
+        "C": { "text": "相濡以沫、互相照顾的日子", "dimension": "C" },
+        "D": { "text": "共同进步、一起实现目标的日子", "dimension": "D" }
+      }
+    },
+    {
+      "id": 49,
+      "content": "你认为soulmate存在吗？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "存在，那是一种精神上的高度契合", "dimension": "A" },
+        "B": { "text": "也许存在，但可能一辈子都找不到", "dimension": "B" },
+        "C": { "text": "两个人用心经营，就是彼此的soulmate", "dimension": "C" },
+        "D": { "text": "不太相信，soulmate是被制造出来的概念", "dimension": "D" }
+      }
+    },
+    {
+      "id": 50,
+      "content": "如果让你用一句话概括你想要的爱情，你会说？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "即使不说话，也不会觉得尴尬", "dimension": "A" },
+        "B": { "text": "和ta在一起，每天都有期待", "dimension": "B" },
+        "C": { "text": "一个眼神，ta就懂了", "dimension": "C" },
+        "D": { "text": "两个人一起，比各自单打独斗更强", "dimension": "D" }
+      }
+    },
+    {
+      "id": 51,
+      "content": "回顾这段感情，最让你珍惜的是？",
+      "lifePhase": "longTerm",
+      "options": {
+        "A": { "text": "那些只有我们两个人才懂的时刻", "dimension": "A" },
+        "B": { "text": "一起经历过的冒险和挑战", "dimension": "B" },
+        "C": { "text": "无论发生什么，ta都在的安心感", "dimension": "C" },
+        "D": { "text": "我们一起实现的那些目标", "dimension": "D" }
+      }
+    }
+  ]
+}
