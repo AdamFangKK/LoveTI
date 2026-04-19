@@ -26,23 +26,27 @@ export default function OptionButton({ optionKey, text, isSelected, onClick }: O
   return (
     <motion.button
       onClick={onClick}
-      whileHover={{ scale: 1.01 }}
-      whileTap={{ scale: 0.99 }}
+      whileHover={{ scale: 1.02, y: -2 }}
+      whileTap={{ scale: 0.98 }}
       className={`
-        w-full p-4 rounded-2xl text-left
-        border-2 backdrop-blur-sm
-        transition-all duration-200 ease-out
+        relative w-full p-4 rounded-2xl text-left
+        border-2 backdrop-blur-sm option-lift
+        transition-all duration-200 ease-out touch-feedback
         ${isSelected
           ? `${selectedColors[optionKey]} border-opacity-100`
           : `${dimensionColors[optionKey]} border-opacity-50 hover:border-opacity-80`
         }
       `}
     >
-      <div className="flex items-start gap-3">
+      <motion.div
+        animate={isSelected ? { scale: [1, 1.05, 1] } : {}}
+        transition={{ duration: 0.3 }}
+        className="flex items-start gap-3"
+      >
         <span className={`
           flex-shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-sm font-medium
           ${isSelected
-            ? 'bg-dynamic-orange text-white'
+            ? 'bg-dynamic-orange text-white heartbeat'
             : 'bg-white/50 text-gray-500'
           }
         `}>
@@ -51,7 +55,7 @@ export default function OptionButton({ optionKey, text, isSelected, onClick }: O
         <span className={`text-gray-700 ${isSelected ? 'font-medium' : ''}`}>
           {text}
         </span>
-      </div>
+      </motion.div>
     </motion.button>
   );
 }

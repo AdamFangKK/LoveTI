@@ -9,7 +9,7 @@ export default function ProgressBar() {
     <div className="relative">
       <div className="h-2 rounded-full bg-white/30 backdrop-blur-sm overflow-hidden">
         <motion.div
-          className="h-full rounded-full primary-gradient"
+          className="h-full rounded-full primary-gradient progress-pulse"
           initial={{ width: 0 }}
           animate={{ width: `${progress * 100}%` }}
           transition={{ duration: 0.3, ease: 'easeOut' }}
