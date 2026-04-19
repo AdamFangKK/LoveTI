@@ -40,7 +40,7 @@
       "options": {
         "A": { "text": "也很好，像是在共享同一片天空", "dimension": "A" },
         "B": { "text": "有点尴尬，得找点话题打破它", "dimension": "B" },
-        "C": { "text": "舒服的沉默，比硬聊100句话都自然", "dimension": "C" },
+        "C": { "text": "沉默就沉默吧，不必非要给它赋予什么意义", "dimension": "C" },
         "D": { "text": "尴尬到想找个借口先走了", "dimension": "D" }
       }
     },
@@ -151,7 +151,7 @@
         "A": { "text": "冷淡敷衍，感觉被忽视", "dimension": "A" },
         "B": { "text": "说话不算数，承诺的事总是做不到", "dimension": "B" },
         "C": { "text": "在最需要的时候缺席", "dimension": "C" },
-        "D": { "text": "说实话，有时候是因为自己的不安全感在作祟", "dimension": "D" }
+        "D": { "text": "有时候回头看，其实是自己的不安全感在作祟", "dimension": "D" }
       }
     },
     {
@@ -217,7 +217,7 @@
         "A": { "text": "学会了用文字和声音传递温度", "dimension": "A" },
         "B": { "text": "学会了独自生活也不觉得孤单", "dimension": "B" },
         "C": { "text": "更珍惜在一起的时间", "dimension": "C" },
-        "D": { "text": "其实没觉得成长了什么，只是习惯了", "dimension": "D" }
+        "D": { "text": "没觉得成长了什么，只是慢慢习惯了距离", "dimension": "D" }
       }
     },
     {
@@ -260,7 +260,7 @@
       "options": {
         "A": { "text": "很好，不需要再伪装，可以做自己", "dimension": "A" },
         "B": { "text": "偶尔还是需要一些小惊喜来调味", "dimension": "B" },
-        "C": { "text": "这就是我要的，不需要表演的爱情", "dimension": "C" },
+        "C": { "text": "新鲜感本来就会消退，平平淡淡才是常态", "dimension": "C" },
         "D": { "text": "说实话，有时候觉得有点腻了", "dimension": "D" }
       }
     },
@@ -327,7 +327,7 @@
         "A": { "text": "两个人渐行渐远，精神上不再同频", "dimension": "A" },
         "B": { "text": "生活中只剩下平淡，没有了当初的火花", "dimension": "B" },
         "C": { "text": "信任被消耗殆尽", "dimension": "C" },
-        "D": { "text": "可能从一开始就不够爱，只是不够合适", "dimension": "D" }
+        "D": { "text": "也许只是时机不对，或者根本上就不该开始", "dimension": "D" }
       }
     },
     {
@@ -404,7 +404,7 @@
         "A": { "text": "温柔，能让周围的人感到舒适", "dimension": "A" },
         "B": { "text": "有趣，和ta在一起永远不会无聊", "dimension": "B" },
         "C": { "text": "真诚，和我一样愿意坦诚相待", "dimension": "C" },
-        "D": { "text": "有钱，这比什么特质都实在", "dimension": "D" }
+        "D": { "text": "能聊到一起，这点比什么特质都重要", "dimension": "D" }
       }
     },
     {
@@ -436,7 +436,7 @@
       "options": {
         "A": { "text": "一个安静的地方，能让我们好好聊天", "dimension": "A" },
         "B": { "text": "一个能让我们共同体验新事物的场合", "dimension": "B" },
-        "C": { "text": "其实去哪里不重要，重要的是和谁", "dimension": "C" },
+        "C": { "text": "其实一个人待着也挺好的，不一定非要约会", "dimension": "C" },
         "D": { "text": "不太喜欢约会，太刻意了", "dimension": "D" }
       }
     },
@@ -502,7 +502,7 @@
       "options": {
         "A": { "text": "磨合是让彼此更契合的过程", "dimension": "A" },
         "B": { "text": "磨合可以，但要保持各自的个性", "dimension": "B" },
-        "C": { "text": "真正的磨合是接受对方本来的样子", "dimension": "C" },
+        "C": { "text": "很多东西不是磨合来的，是时间久了自然就接受了", "dimension": "C" },
         "D": { "text": "很多磨合其实是双方在妥协，不是什么美事", "dimension": "D" }
       }
     },
