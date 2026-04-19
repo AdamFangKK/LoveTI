@@ -32,9 +32,9 @@ export default function QuestionCard() {
   // useMemo ensures shuffle is stable within the same session for this question
   const shuffledContent = useMemo(() => {
     // 提取原始内容+维度对
-    const contentDimensionPairs = ['A', 'B', 'C', 'D'].map(pos => ({
-      dimension: question.options[pos].dimension,
-      text: question.options[pos].text
+    const contentDimensionPairs: { dimension: Dimension; text: string }[] = (['A', 'B', 'C', 'D'] as const).map((pos) => ({
+      dimension: question.options[pos as Dimension].dimension as Dimension,
+      text: question.options[pos as Dimension].text
     }));
 
     // 打乱内容（但维度也跟着内容走）
