@@ -8,7 +8,6 @@ export default function ProgressBar() {
   const [isPulsing, setIsPulsing] = useState(false);
   const [prevIndex, setPrevIndex] = useState(currentQuestionIndex);
 
-  // Track question changes to trigger pulse
   useEffect(() => {
     if (currentQuestionIndex > prevIndex) {
       setIsPulsing(true);
@@ -18,36 +17,23 @@ export default function ProgressBar() {
     }
   }, [currentQuestionIndex, prevIndex]);
 
-  // Spring-animated progress for smooth interpolation
   const springProgress = useSpring(progress, { stiffness: 100, damping: 20 });
   const displayProgress = useTransform(springProgress, [0, 1], [0, 100]);
 
-  // Color phases: 0-30% transparent, 31-70% transitioning, 71-100% glowing
   const getPhaseColor = (p: number) => {
     if (p <= 0.3) {
-      // Phase 1: Nearly transparent, barely visible
-      return {
-        bg: 'rgba(255, 107, 53, 0.15)',
-        glow: 'rgba(255, 107, 53, 0)',
-        intensity: 0.15
-      };
+      return { bg: 'rgba(255, 107, 53, 0.15)', glow: 'rgba(255, 107, 53, 0)' };
     } else if (p <= 0.7) {
-      // Phase 2: Transitioning to orange
       const t = (p - 0.3) / 0.4;
-      const intensity = 0.15 + t * 0.5;
       return {
-        bg: `rgba(255, 107, 53, ${intensity})`,
-        glow: `rgba(255, 107, 53, ${t * 0.3})`,
-        intensity
+        bg: `rgba(255, 107, 53, ${0.15 + t * 0.5})`,
+        glow: `rgba(255, 107, 53, ${t * 0.3})`
       };
     } else {
-      // Phase 3: Glowing and intense
       const t = (p - 0.7) / 0.3;
-      const intensity = 0.65 + t * 0.35;
       return {
-        bg: `rgba(255, 107, 53, ${intensity})`,
-        glow: `rgba(255, 140, 107, ${0.3 + t * 0.5})`,
-        intensity
+        bg: `rgba(255, 107, 53, ${0.65 + t * 0.35})`,
+        glow: `rgba(255, 140, 107, ${0.3 + t * 0.5})`
       };
     }
   };
@@ -56,44 +42,31 @@ export default function ProgressBar() {
 
   return (
     <div className="relative">
-      {/* Glass tube container */}
       <div className="relative h-10 rounded-full overflow-visible">
-        {/* Background glass tube */}
+        {/* 玻璃管背景 */}
         <div className="absolute inset-0 rounded-full bg-white/20 backdrop-blur-sm border-[1px] border-white/30 overflow-hidden">
-          {/* Inner highlight - top bevel */}
           <div className="absolute top-[1px] left-[10%] right-[10%] h-[1px] bg-gradient-to-r from-transparent via-white/60 to-transparent rounded-full" />
         </div>
 
-        {/* Tick marks - 5 segments for 52 questions */}
+        {/* 刻度标记 */}
         <div className="absolute inset-0 flex justify-between px-[2%]">
           {[...Array(5)].map((_, i) => (
-            <div
-              key={i}
-              className="relative w-[1px] h-3 self-center"
-            >
+            <div key={i} className="relative w-[1px] h-3 self-center">
               <div className={`absolute inset-0 rounded-full transition-all duration-500 ${
-                progress > (i + 1) * 0.2
-                  ? 'bg-white/60'
-                  : 'bg-white/20'
+                progress > (i + 1) * 0.2 ? 'bg-white/60' : 'bg-white/20'
               }`} />
             </div>
           ))}
         </div>
 
-        {/* Liquid fill with wave */}
+        {/* 液体填充 */}
         <div className="absolute inset-0 rounded-full overflow-hidden">
           <motion.div
             className="absolute inset-0 origin-left"
-            style={{
-              scaleX: displayProgress,
-            }}
+            style={{ scaleX: displayProgress }}
           >
-            {/* Wave layer 1 - primary */}
-            <svg
-              className="absolute inset-0 w-full h-full"
-              viewBox="0 0 100 100"
-              preserveAspectRatio="none"
-            >
+            {/* 主波浪层 */}
+            <svg className="absolute inset-0 w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
               <defs>
                 <linearGradient id="liquidGradient" x1="0%" y1="0%" x2="100%" y2="0%">
                   <stop offset="0%" stopColor={phase.bg} />
@@ -118,12 +91,8 @@ export default function ProgressBar() {
               />
             </svg>
 
-            {/* Wave layer 2 - secondary ripple */}
-            <svg
-              className="absolute inset-0 w-full h-full opacity-50"
-              viewBox="0 0 100 100"
-              preserveAspectRatio="none"
-            >
+            {/* 次级波纹层 */}
+            <svg className="absolute inset-0 w-full h-full opacity-50" viewBox="0 0 100 100" preserveAspectRatio="none">
               <path
                 d={`
                   M 0,50
@@ -140,7 +109,7 @@ export default function ProgressBar() {
               />
             </svg>
 
-            {/* Droplet pulse effect */}
+            {/* 水滴脉冲 */}
             {isPulsing && (
               <motion.div
                 initial={{ scale: 0, opacity: 0.8 }}
@@ -152,24 +121,19 @@ export default function ProgressBar() {
             )}
           </motion.div>
 
-          {/* Inner glow at high progress */}
+          {/* 高进度内发光 */}
           {progress > 0.7 && (
             <div
               className="absolute inset-0 rounded-full"
-              style={{
-                boxShadow: `inset 0 0 20px ${phase.glow}, inset 0 0 40px ${phase.glow}`,
-              }}
+              style={{ boxShadow: `inset 0 0 20px ${phase.glow}, inset 0 0 40px ${phase.glow}` }}
             />
           )}
         </div>
 
-        {/* Front bubble indicator */}
+        {/* 前端气泡 */}
         <motion.div
           className="absolute top-1/2 -translate-y-1/2 pointer-events-none"
-          style={{
-            left: `${Math.max(8, Math.min(92, progress * 100))}%`,
-            x: '-50%',
-          }}
+          style={{ left: `${Math.max(8, Math.min(92, progress * 100))}%`, x: '-50%' }}
         >
           <motion.div
             animate={{
@@ -182,19 +146,17 @@ export default function ProgressBar() {
             }}
             className="relative"
           >
-            {/* Bubble */}
             <div className="w-8 h-8 rounded-full bg-white/90 backdrop-blur-sm border border-white/50 flex items-center justify-center shadow-lg">
               <span className="text-[10px] font-medium text-gray-700">
                 {Math.round(progress * 100)}%
               </span>
             </div>
-            {/* Bubble shine */}
             <div className="absolute -top-[2px] left-[6px] w-2 h-1 rounded-full bg-white/60" />
           </motion.div>
         </motion.div>
       </div>
 
-      {/* Labels */}
+      {/* 标签 */}
       <div className="flex justify-between mt-3 px-1">
         <span className="text-xs text-gray-500">
           {currentQuestionIndex + 1}/52 题
