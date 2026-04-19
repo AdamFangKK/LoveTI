@@ -8,7 +8,7 @@
         "A": { "text": "路灯把他们的影子拉得很长，有种说不出的温柔", "dimension": "A" },
         "B": { "text": "他们在聊什么能笑得这么开心？", "dimension": "B" },
         "C": { "text": "那种不需要多说的默契感", "dimension": "C" },
-        "D": { "text": "希望自己也能有个人陪着走这条路", "dimension": "D" }
+        "D": { "text": "有点烦躁，又被喂了一嘴狗粮", "dimension": "D" }
       }
     },
     {
@@ -19,7 +19,7 @@
         "A": { "text": "这个画面很美，像一幅还没完成的画", "dimension": "A" },
         "B": { "text": "好奇那是一本什么书，能让人这么专注", "dimension": "B" },
         "C": { "text": "那种与自己独处的姿态，让人想靠近", "dimension": "C" },
-        "D": { "text": "想走过去问对方要不要一起喝杯咖啡", "dimension": "D" }
+        "D": { "text": "在想这个人是不是在装文艺", "dimension": "D" }
       }
     },
     {
@@ -30,7 +30,7 @@
         "A": { "text": "被珍视的感觉，像被小心翼翼地对待", "dimension": "A" },
         "B": { "text": "有点意外，想知道对方为什么会记得", "dimension": "B" },
         "C": { "text": "心里微微一热，像是找到了同类", "dimension": "C" },
-        "D": { "text": "这说明对方是认真的人，可以继续了解", "dimension": "D" }
+        "D": { "text": "有点警惕，记性这么好是不是有什么目的", "dimension": "D" }
       }
     },
     {
@@ -41,7 +41,7 @@
         "A": { "text": "也很好，像是在共享同一片天空", "dimension": "A" },
         "B": { "text": "有点尴尬，得找点话题打破它", "dimension": "B" },
         "C": { "text": "舒服的沉默，比硬聊100句话都自然", "dimension": "C" },
-        "D": { "text": "不确定对方怎么想，需要有人说点什么", "dimension": "D" }
+        "D": { "text": "尴尬到想找个借口先走了", "dimension": "D" }
       }
     },
     {
@@ -52,7 +52,7 @@
         "A": { "text": "伞下的世界很小，但刚好装下两个人", "dimension": "A" },
         "B": { "text": "他们一定有什么有趣的故事正在发生", "dimension": "B" },
         "C": { "text": "不需要故事，这就是最好的样子", "dimension": "C" },
-        "D": { "text": "希望自己也能有这样的时刻", "dimension": "D" }
+        "D": { "text": "其实不太关心，伞会不会遮不住两个人", "dimension": "D" }
       }
     },
     {
@@ -63,7 +63,7 @@
         "A": { "text": "刚好在看月亮，想立刻分享给对方", "dimension": "A" },
         "B": { "text": "刚经历了一件很好笑的事，第一时间想告诉对方", "dimension": "B" },
         "C": { "text": "其实不记得在做什么，只记得收到消息时的感觉", "dimension": "C" },
-        "D": { "text": "正在认真做一件事，被打断的感觉很微妙", "dimension": "D" }
+        "D": { "text": "正在打游戏，被打断有点烦躁", "dimension": "D" }
       }
     },
     {
@@ -74,7 +74,7 @@
         "A": { "text": "像整部电影突然按下了暂停键", "dimension": "A" },
         "B": { "text": "像过山车到达顶点，接下来是俯冲", "dimension": "B" },
         "C": { "text": "像早就认识的人终于见到了面", "dimension": "C" },
-        "D": { "text": "像做了一个决定，虽然还没想好要怎么走", "dimension": "D" }
+        "D": { "text": "在想他是不是在看我后面的谁", "dimension": "D" }
       }
     },
     {
@@ -85,7 +85,7 @@
         "A": { "text": "记得你说过想要的东西，然后悄悄准备给你", "dimension": "A" },
         "B": { "text": "带你去一个你从来不知道存在的地方", "dimension": "B" },
         "C": { "text": "在你需要的时候，什么都没说就出现了", "dimension": "C" },
-        "D": { "text": "认真规划了一次属于你们的旅行", "dimension": "D" }
+        "D": { "text": "其实有点不习惯，心里想着他是不是要我做什么", "dimension": "D" }
       }
     },
     {
@@ -96,7 +96,7 @@
         "A": { "text": "两个人什么都不做，待在一起发呆", "dimension": "A" },
         "B": { "text": "一起尝试从没做过的事，笑着尖叫", "dimension": "B" },
         "C": { "text": "各自在做自己的事，偶尔抬头对视一笑", "dimension": "C" },
-        "D": { "text": "讨论未来要一起去的地方、要一起做的事", "dimension": "D" }
+        "D": { "text": "说实话，有时候觉得有点腻，想有点自己的时间", "dimension": "D" }
       }
     },
     {
@@ -107,7 +107,7 @@
         "A": { "text": "心里像被什么柔软的东西碰了一下", "dimension": "A" },
         "B": { "text": "想立刻见到对方", "dimension": "B" },
         "C": { "text": "其实不用说出口，我也一直想着你", "dimension": "C" },
-        "D": { "text": "那我们现在就见面吧", "dimension": "D" }
+        "D": { "text": "嘴上说好，心里想的是这话说得也太勤了", "dimension": "D" }
       }
     },
     {
@@ -118,7 +118,7 @@
         "A": { "text": "安静地待一会儿，让情绪慢慢平复", "dimension": "A" },
         "B": { "text": "用一个小惊喜把尴尬融化掉", "dimension": "B" },
         "C": { "text": "认真聊了聊，说出了各自的想法", "dimension": "C" },
-        "D": { "text": "约好以后遇到这种事要怎么快速解决", "dimension": "D" }
+        "D": { "text": "其实谁也没真的服软，只是翻篇了", "dimension": "D" }
       }
     },
     {
@@ -129,7 +129,7 @@
         "A": { "text": "先安静听对方说完，不要急着反驳", "dimension": "A" },
         "B": { "text": "争论一下也好，真理越辩越明", "dimension": "B" },
         "C": { "text": "不需要争出对错，理解对方的角度就好", "dimension": "C" },
-        "D": { "text": "定个规则，以后这种事谁做主", "dimension": "D" }
+        "D": { "text": "想赢，哪怕这次吵输了下次也要吵回来", "dimension": "D" }
       }
     },
     {
@@ -140,7 +140,7 @@
         "A": { "text": "默默陪在旁边，不追问", "dimension": "A" },
         "B": { "text": "想办法让对方开心起来", "dimension": "B" },
         "C": { "text": "相信对方会在准备好的时候说出来", "dimension": "C" },
-        "D": { "text": "问清楚原因，这样才能帮上忙", "dimension": "D" }
+        "D": { "text": "不问但心里很不爽，猜来猜去很累", "dimension": "D" }
       }
     },
     {
@@ -151,7 +151,7 @@
         "A": { "text": "冷淡敷衍，感觉被忽视", "dimension": "A" },
         "B": { "text": "说话不算数，承诺的事总是做不到", "dimension": "B" },
         "C": { "text": "在最需要的时候缺席", "dimension": "C" },
-        "D": { "text": "遇到问题就逃避，不愿意面对", "dimension": "D" }
+        "D": { "text": "说实话，有时候是因为自己的不安全感在作祟", "dimension": "D" }
       }
     },
     {
@@ -161,7 +161,7 @@
       "options": {
         "A": { "text": "一个拥抱，比说多少话都有用", "dimension": "A" },
         "B": { "text": "一起去做点有趣的事，把不愉快翻篇", "dimension": "B" },
-        "C": { "text": "和好之后像什么都没发生过", "dimension": "C" },
+        "C": { "text": "需要冷静几天，不想假装什么都没发生", "dimension": "C" },
         "D": { "text": "明确说好以后怎么避免再发生", "dimension": "D" }
       }
     },
@@ -173,7 +173,7 @@
         "A": { "text": "\"我也在想你，和你此刻想我一样\"", "dimension": "A" },
         "B": { "text": "\"下周我就能见到你了！\"", "dimension": "B" },
         "C": { "text": "\"不管多远，我们的节奏是一样的\"", "dimension": "C" },
-        "D": { "text": "\"我已经在计划怎么结束异地了\"", "dimension": "D" }
+        "D": { "text": "其实不太需要安慰，有事说事就行", "dimension": "D" }
       }
     },
     {
@@ -184,7 +184,7 @@
         "A": { "text": "拍一张合照，约定下次见面再拍一张", "dimension": "A" },
         "B": { "text": "规划下次见面要一起去探索的地方", "dimension": "B" },
         "C": { "text": "约定一个只有我们懂的小暗号", "dimension": "C" },
-        "D": { "text": "定好下次见面的具体日期", "dimension": "D" }
+        "D": { "text": "其实巴不得快点走，待久了反而尴尬", "dimension": "D" }
       }
     },
     {
@@ -195,7 +195,7 @@
         "A": { "text": "惊喜不是节日才有，平时也要给你制造", "dimension": "A" },
         "B": { "text": "这说明对方在想着我，哪怕不在身边", "dimension": "B" },
         "C": { "text": "不用为什么，就是想让我知道他在", "dimension": "C" },
-        "D": { "text": "下次我也要给他寄点什么作为回应", "dimension": "D" }
+        "D": { "text": "感动是感动，但也开始头疼要回什么礼", "dimension": "D" }
       }
     },
     {
@@ -206,7 +206,7 @@
         "A": { "text": "即使不说话，看着屏幕里的对方也很安心", "dimension": "A" },
         "B": { "text": "分享今天发生的各种小事", "dimension": "B" },
         "C": { "text": "各自做自己的事，抬头就能看到对方", "dimension": "C" },
-        "D": { "text": "一起看同一部电影并讨论剧情", "dimension": "D" }
+        "D": { "text": "有时候其实想早点挂电话，有点无聊", "dimension": "D" }
       }
     },
     {
@@ -217,7 +217,7 @@
         "A": { "text": "学会了用文字和声音传递温度", "dimension": "A" },
         "B": { "text": "学会了独自生活也不觉得孤单", "dimension": "B" },
         "C": { "text": "更珍惜在一起的时间", "dimension": "C" },
-        "D": { "text": "学会了制定计划并严格执行", "dimension": "D" }
+        "D": { "text": "其实没觉得成长了什么，只是习惯了", "dimension": "D" }
       }
     },
     {
@@ -228,7 +228,7 @@
         "A": { "text": "从烟花变成了炉火，更温暖但不易察觉", "dimension": "A" },
         "B": { "text": "需要注入新的刺激，让关系保持活力", "dimension": "B" },
         "C": { "text": "默契的开始，不需要轰轰烈烈也能走下去", "dimension": "C" },
-        "D": { "text": "有点担心，不知道这算不算正常", "dimension": "D" }
+        "D": { "text": "说实话，有时候觉得一个人也挺好的", "dimension": "D" }
       }
     },
     {
@@ -239,7 +239,7 @@
         "A": { "text": "一起做饭，即使不说话也很好", "dimension": "A" },
         "B": { "text": "周末去一个没去过的地方", "dimension": "B" },
         "C": { "text": "各自看书，偶尔交流几句", "dimension": "C" },
-        "D": { "text": "一起制定计划然后执行", "dimension": "D" }
+        "D": { "text": "其实有时候想一个人待着，不想被打扰", "dimension": "D" }
       }
     },
     {
@@ -250,7 +250,7 @@
         "A": { "text": "静静看着，心里觉得很满足", "dimension": "A" },
         "B": { "text": "好奇是什么这么吸引人", "dimension": "B" },
         "C": { "text": "也做自己的事，互不打扰", "dimension": "C" },
-        "D": { "text": "想着怎么能在对方忙的时候帮上忙", "dimension": "D" }
+        "D": { "text": "有点无聊，开始刷手机", "dimension": "D" }
       }
     },
     {
@@ -261,7 +261,7 @@
         "A": { "text": "很好，不需要再伪装，可以做自己", "dimension": "A" },
         "B": { "text": "偶尔还是需要一些小惊喜来调味", "dimension": "B" },
         "C": { "text": "这就是我要的，不需要表演的爱情", "dimension": "C" },
-        "D": { "text": "担心这样下去会失去感觉", "dimension": "D" }
+        "D": { "text": "说实话，有时候觉得有点腻了", "dimension": "D" }
       }
     },
     {
@@ -272,7 +272,7 @@
         "A": { "text": "在家安静地待着，享受两个人的时光", "dimension": "A" },
         "B": { "text": "出去旅行，创造新的回忆", "dimension": "B" },
         "C": { "text": "和平时一样，该干嘛干嘛", "dimension": "C" },
-        "D": { "text": "精心准备一顿饭或者一个活动", "dimension": "D" }
+        "D": { "text": "其实不太想出门，只想在家躺着", "dimension": "D" }
       }
     },
     {
@@ -283,7 +283,7 @@
         "A": { "text": "想象那个家的样子，越具体越好", "dimension": "A" },
         "B": { "text": "列出各种可能性，选最有趣的", "dimension": "B" },
         "C": { "text": "商量一个对双方都公平的方案", "dimension": "C" },
-        "D": { "text": "定好时间表，什么时候做什么", "dimension": "D" }
+        "D": { "text": "其实不太想聊这个，聊起来压力很大", "dimension": "D" }
       }
     },
     {
@@ -294,7 +294,7 @@
         "A": { "text": "心跳漏了一拍，不知道要谈什么", "dimension": "A" },
         "B": { "text": "好奇又紧张，想知道是什么事", "dimension": "B" },
         "C": { "text": "有种预感，不管是什么都想听下去", "dimension": "C" },
-        "D": { "text": "脑子里开始列可能的话题清单", "dimension": "D" }
+        "D": { "text": "脑子里开始想怎么应对最坏的情况", "dimension": "D" }
       }
     },
     {
@@ -305,7 +305,7 @@
         "A": { "text": "舍不得让不愉快持续太久", "dimension": "A" },
         "B": { "text": "觉得冷战太无聊，不如吵一架", "dimension": "B" },
         "C": { "text": "相信问题可以解决，不需要用沉默惩罚", "dimension": "C" },
-        "D": { "text": "吵完总会有一方先道歉", "dimension": "D" }
+        "D": { "text": "习惯了，其中一方总会先低头", "dimension": "D" }
       }
     },
     {
@@ -316,7 +316,7 @@
         "A": { "text": "并肩在沙发上，各自刷手机", "dimension": "A" },
         "B": { "text": "周末去尝试一家新开的餐厅", "dimension": "B" },
         "C": { "text": "一起做饭，聊今天发生了什么", "dimension": "C" },
-        "D": { "text": "计划下一次旅行，攻略做得比上班还认真", "dimension": "D" }
+        "D": { "text": "其实经常各做各的，偶尔交集", "dimension": "D" }
       }
     },
     {
@@ -327,7 +327,7 @@
         "A": { "text": "两个人渐行渐远，精神上不再同频", "dimension": "A" },
         "B": { "text": "生活中只剩下平淡，没有了当初的火花", "dimension": "B" },
         "C": { "text": "信任被消耗殆尽", "dimension": "C" },
-        "D": { "text": "对未来的规划始终无法达成一致", "dimension": "D" }
+        "D": { "text": "可能从一开始就不够爱，只是不够合适", "dimension": "D" }
       }
     },
     {
@@ -338,7 +338,7 @@
         "A": { "text": "循环播放同一首歌，不想跟任何人说话", "dimension": "A" },
         "B": { "text": "找朋友喝酒，把社交日程排满", "dimension": "B" },
         "C": { "text": "一个人走了很多路，想清楚了很多事", "dimension": "C" },
-        "D": { "text": "该上班上班，只是效率有点低", "dimension": "D" }
+        "D": { "text": "说实话，其实松了一口气", "dimension": "D" }
       }
     },
     {
@@ -349,7 +349,7 @@
         "A": { "text": "看情况，先想想对方为什么联系", "dimension": "A" },
         "B": { "text": "好奇对方现在过得怎么样", "dimension": "B" },
         "C": { "text": "既然过去了，就不需要再联系", "dimension": "C" },
-        "D": { "text": "直接问有什么事", "dimension": "D" }
+        "D": { "text": "看对方说什么，判断是不是要借钱", "dimension": "D" }
       }
     },
     {
@@ -371,7 +371,7 @@
         "A": { "text": "日久生情，经历时间考验的才是真的", "dimension": "A" },
         "B": { "text": "一见钟情，那种心跳的感觉骗不了人", "dimension": "B" },
         "C": { "text": "都有道理，关键是两个人愿意走下去", "dimension": "C" },
-        "D": { "text": "日久生情更靠谱，有感情基础", "dimension": "D" }
+        "D": { "text": "都不太信，感情是可以培养的但也能消退", "dimension": "D" }
       }
     },
     {
@@ -382,7 +382,7 @@
         "A": { "text": "一个人静静，想清楚再说", "dimension": "A" },
         "B": { "text": "和对方谈谈，或许能理清一些事", "dimension": "B" },
         "C": { "text": "相信感觉，感觉对了就有答案", "dimension": "C" },
-        "D": { "text": "分析问题，找出具体是哪里不对", "dimension": "D" }
+        "D": { "text": "想分手但不知道怎么开口", "dimension": "D" }
       }
     },
     {
@@ -393,7 +393,7 @@
         "A": { "text": "倾听，理解对方真正想表达什么", "dimension": "A" },
         "B": { "text": "诚实，想到什么就说什么", "dimension": "B" },
         "C": { "text": "尊重，即使不同意也认真对待", "dimension": "C" },
-        "D": { "text": "效率，能说清楚就不要绕弯子", "dimension": "D" }
+        "D": { "text": "其实有时候善意的谎言更省事", "dimension": "D" }
       }
     },
     {
@@ -404,7 +404,7 @@
         "A": { "text": "温柔，能让周围的人感到舒适", "dimension": "A" },
         "B": { "text": "有趣，和ta在一起永远不会无聊", "dimension": "B" },
         "C": { "text": "真诚，和我一样愿意坦诚相待", "dimension": "C" },
-        "D": { "text": "上进，有目标并愿意为之努力", "dimension": "D" }
+        "D": { "text": "有钱，这比什么特质都实在", "dimension": "D" }
       }
     },
     {
@@ -413,9 +413,9 @@
       "lifePhase": "stable",
       "options": {
         "A": { "text": "下意识地拉了拉被子，给TA盖好", "dimension": "A" },
-        "B": { "text": "突然清醒，想起昨晚还有话没说完", "dimension": "B" },
+        "B": { "text": "睡眠被打断，有点烦躁", "dimension": "B" },
         "C": { "text": "看看TA，确认只是做梦后又闭上眼", "dimension": "C" },
-        "D": { "text": "在想明天要不要调整一下睡觉的位置", "dimension": "D" }
+        "D": { "text": "在想明天要几点起床才能不影响对方", "dimension": "D" }
       }
     },
     {
@@ -426,7 +426,7 @@
         "A": { "text": "很感动，会记住这份心意", "dimension": "A" },
         "B": { "text": "希望不是因为ta勉强自己", "dimension": "B" },
         "C": { "text": "这说明ta在乎我", "dimension": "C" },
-        "D": { "text": "我也会为ta做些改变", "dimension": "D" }
+        "D": { "text": "有点被绑架感，不改好像就是我不对了", "dimension": "D" }
       }
     },
     {
@@ -437,7 +437,7 @@
         "A": { "text": "一个安静的地方，能让我们好好聊天", "dimension": "A" },
         "B": { "text": "一个能让我们共同体验新事物的场合", "dimension": "B" },
         "C": { "text": "其实去哪里不重要，重要的是和谁", "dimension": "C" },
-        "D": { "text": "能让我们更了解彼此的、有内容的约会", "dimension": "D" }
+        "D": { "text": "不太喜欢约会，太刻意了", "dimension": "D" }
       }
     },
     {
@@ -448,7 +448,7 @@
         "A": { "text": "先停下来，等情绪平复再谈", "dimension": "A" },
         "B": { "text": "吵完就算了，不纠结", "dimension": "B" },
         "C": { "text": "在乎对方的感受，主动和解", "dimension": "C" },
-        "D": { "text": "一定要说清楚，不能留隔阂", "dimension": "D" }
+        "D": { "text": "其实不在乎对错，只想赢", "dimension": "D" }
       }
     },
     {
@@ -459,7 +459,7 @@
         "A": { "text": "一些小动作，比如拉着我的手", "dimension": "A" },
         "B": { "text": "带我去尝试我没做过的事", "dimension": "B" },
         "C": { "text": "记得我说过的话并付诸行动", "dimension": "C" },
-        "D": { "text": "直接告诉我，有什么事都说出来", "dimension": "D" }
+        "D": { "text": "送礼物，简单直接", "dimension": "D" }
       }
     },
     {
@@ -470,7 +470,7 @@
         "A": { "text": "给彼此一些空间，让感觉慢慢回来", "dimension": "A" },
         "B": { "text": "做出一些改变，打破现状", "dimension": "B" },
         "C": { "text": "相信这只是暂时的，坚持下去就会好", "dimension": "C" },
-        "D": { "text": "坐下来好好分析问题出在哪里", "dimension": "D" }
+        "D": { "text": "说实话，有时候想算了但又不甘心", "dimension": "D" }
       }
     },
     {
@@ -492,7 +492,7 @@
         "A": { "text": "用行动，让对方感受到细微的关心", "dimension": "A" },
         "B": { "text": "用语言，直接告诉对方我的感受", "dimension": "B" },
         "C": { "text": "用时间，陪伴是最长情的告白", "dimension": "C" },
-        "D": { "text": "用规划，为我们的未来努力", "dimension": "D" }
+        "D": { "text": "说实话，有时候表达爱意只是一种表演", "dimension": "D" }
       }
     },
     {
@@ -503,7 +503,7 @@
         "A": { "text": "磨合是让彼此更契合的过程", "dimension": "A" },
         "B": { "text": "磨合可以，但要保持各自的个性", "dimension": "B" },
         "C": { "text": "真正的磨合是接受对方本来的样子", "dimension": "C" },
-        "D": { "text": "磨合需要有明确的底线和原则", "dimension": "D" }
+        "D": { "text": "很多磨合其实是双方在妥协，不是什么美事", "dimension": "D" }
       }
     },
     {
@@ -514,7 +514,7 @@
         "A": { "text": "为ta骄傲，也觉得自己的眼光很好", "dimension": "A" },
         "B": { "text": "想一起庆祝这个时刻", "dimension": "B" },
         "C": { "text": "觉得这是理所当然的，ta本来就优秀", "dimension": "C" },
-        "D": { "text": "想一起规划下一步怎么做", "dimension": "D" }
+        "D": { "text": "其实有点嫉妒，凭什么ta能成", "dimension": "D" }
       }
     },
     {
@@ -525,7 +525,7 @@
         "A": { "text": "窗帘缝隙透进来的光，刚好落在枕边", "dimension": "A" },
         "B": { "text": "还没拉严的窗帘，外面是个晴天", "dimension": "B" },
         "C": { "text": "昏黄的台灯光，昨晚看书看睡着了", "dimension": "C" },
-        "D": { "text": "手机屏幕的光——闹钟还有十分钟响", "dimension": "D" }
+        "D": { "text": "其实还没完全清醒，在想今天是周末真好", "dimension": "D" }
       }
     },
     {

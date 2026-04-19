@@ -31,11 +31,20 @@ export default function QuestionCard() {
   // ABCD keys stay in fixed order (for labels), only content is shuffled
   // useMemo ensures shuffle is stable within the same session for this question
   const shuffledContent = useMemo(() => {
-    const keys: Dimension[] = ['A', 'B', 'C', 'D'];
-    const shuffledKeys = shuffleArray(keys);
-    return shuffledKeys.map(key => ({
-      key,
-      text: question.options[key].text
+    // 提取原始内容+维度对
+    const contentDimensionPairs = ['A', 'B', 'C', 'D'].map(pos => ({
+      dimension: question.options[pos].dimension,
+      text: question.options[pos].text
+    }));
+
+    // 打乱内容（但维度也跟着内容走）
+    const shuffled = shuffleArray(contentDimensionPairs);
+
+    // 分配到固定的position上：A永远在第1行，B永远在第2行...
+    return ['A', 'B', 'C', 'D'].map((pos, i) => ({
+      position: pos as Dimension,  // 固定标签
+      dimension: shuffled[i].dimension,  // 内容绑定的原始维度
+      text: shuffled[i].text  // 内容
     }));
   }, [question.id]);
 
@@ -78,18 +87,21 @@ export default function QuestionCard() {
           </h2>
 
           <div className="space-y-3">
-            {shuffledContent.map((item: { key: Dimension; text: string }, i: number) => (
+            {shuffledContent.map((item, i: number) => (
               <motion.div
-                key={`${question.id}-${item.key}`}
+                key={`${question.id}-${item.position}`}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: i * 0.05, type: 'spring', stiffness: 300, damping: 20 }}
               >
                 <OptionButton
-                  optionKey={item.key}
+                  optionKey={item.position}
                   text={item.text}
-                  isSelected={selectedAnswer === item.key}
-                  onClick={() => selectAnswer(item.key)}
+                  isSelected={
+                    // 通过反向映射：找到selectedAnswer(dimension)当前在哪个position
+                    shuffledContent.find(item => item.dimension === selectedAnswer)?.position === item.position
+                  }
+                  onClick={() => selectAnswer(item.dimension)}
                 />
               </motion.div>
             ))}
