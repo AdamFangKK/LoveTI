@@ -131,6 +131,18 @@
   animation: progressPulse 2s ease-in-out infinite;
 }
 
+/* 流光液态进度条 - 额外动效 */
+@keyframes liquidWave {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
+}
+
+@keyframes dropletPop {
+  0% { transform: scale(0) translateY(-50%); opacity: 0.8; }
+  50% { opacity: 0.4; }
+  100% { transform: scale(2) translateY(-50%); opacity: 0; }
+}
+
 /* 玻璃卡片光泽效果 */
 .glass-shine {
   position: relative;
