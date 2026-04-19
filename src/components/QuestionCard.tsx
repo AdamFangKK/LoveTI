@@ -1,3 +1,4 @@
+import { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import { useQuizStore } from '../stores/quizStore';
 import OptionButton from './OptionButton';
@@ -26,7 +27,18 @@ export default function QuestionCard() {
 
   const question = questionsData.questions[currentQuestionIndex];
   const selectedAnswer = getAnswerForCurrentQuestion();
-  const shuffledKeys = shuffleArray(['A', 'B', 'C', 'D'] as Dimension[]);
+
+  // ABCD keys stay in fixed order (for labels), only content is shuffled
+  // useMemo ensures shuffle is stable within the same session for this question
+  const shuffledContent = useMemo(() => {
+    const keys: Dimension[] = ['A', 'B', 'C', 'D'];
+    const shuffledKeys = shuffleArray(keys);
+    return shuffledKeys.map(key => ({
+      key,
+      text: question.options[key].text
+    }));
+  }, [question.id]);
+
   const isLastQuestion = currentQuestionIndex === questionsData.questions.length - 1;
   const isComplete = getProgress() === 1;
 
@@ -66,18 +78,18 @@ export default function QuestionCard() {
           </h2>
 
           <div className="space-y-3">
-            {shuffledKeys.map((key, i) => (
+            {shuffledContent.map((item: { key: Dimension; text: string }, i: number) => (
               <motion.div
-                key={`${question.id}-${key}`}
+                key={`${question.id}-${item.key}`}
                 initial={{ opacity: 0, x: -20 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: i * 0.05, type: 'spring', stiffness: 300, damping: 20 }}
               >
                 <OptionButton
-                  optionKey={key}
-                  text={question.options[key].text}
-                  isSelected={selectedAnswer === key}
-                  onClick={() => selectAnswer(key)}
+                  optionKey={item.key}
+                  text={item.text}
+                  isSelected={selectedAnswer === item.key}
+                  onClick={() => selectAnswer(item.key)}
                 />
               </motion.div>
             ))}
